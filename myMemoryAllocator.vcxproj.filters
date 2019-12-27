@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Memory\Memory_BaseAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Common\Building.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Noncopyable.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TypeDefs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Std_Allocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory_BaseAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GR_Core_Includes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{01e20f50-5ebc-46cf-bdf6-be6407e0ddd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{271394ef-f1fe-4dbb-947f-b7f7d4688035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{b1788640-e364-4eb4-8db0-e9aacb5b5b25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
